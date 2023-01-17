@@ -1,5 +1,5 @@
 # Lab Report 1
-***
+
 ## Installing VS Code
 While you can techincally log into the CSE basement computers from your laptop's terminal, we will be using VS Code for this lab. The first step is to download VS Code, which can be done on [this website](https://code.visualstudio.com/download). 
 <br />
