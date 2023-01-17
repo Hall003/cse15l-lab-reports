@@ -4,7 +4,7 @@
 While you can techincally log into the CSE basement computers from your laptop's terminal, we will be using VS Code for this lab. The first step is to download VS Code, which can be done on [this website](https://code.visualstudio.com/download). 
 <br />
 ![VSCodeDownload](https://github.com/Hall003/cse15l-lab-reports/blob/main/Lab%20Report%201/VSCodeDownload.png)
-<img src="https://github.com/Hall003/cse15l-lab-reports/blob/main/Lab%20Report%201/VSCodeDownload.png" height= 50% width= 50%/> <br />
+<br />
 Select the download option that corresponds with your computer's operating system and follow the instructions to install. 
 *Note: There might be more steps, but I downloaded VS Code a while ago and can't remember if there were more steps after installed* It'll look something like this:
 <br />
