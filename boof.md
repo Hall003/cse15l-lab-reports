@@ -69,7 +69,7 @@ This command, `pwd`, means print working directory and it shows the path to the 
 <br/><br /><br />
 <img src="LabReport1/MKDIR.png" height= "50%" width= "50%"/> 
 <br/><br />
-In the first line `cd` is used to change back to the home directory that can be accessed by using the `~` symbol. In the second line, `mkdir` creates a new directory which is then named with the second argument `bannaana`. The last command run in this photo is `ls` to demonstrate the new directory "bannaana" that has been created within the current directory.
+In the first line `cd` is used to change back to the home directory that can be represented by using the `~` symbol. In the second line, `mkdir` creates a new directory which is then named with the second argument `bannaana`. The last command run in this photo is `ls` to demonstrate the new directory "bannaana" that has been created within the current directory.
 
 ## Finishing
 Once you're done testing things out, simply enter `exit` into the terminal to terminate your connection with the remote server and you will recieve the following message:
