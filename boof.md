@@ -55,9 +55,21 @@ Mon Jan 16, 2023  3:44pm - Prepping cs15lwi23
 Now that you're connected, it's time to start testing out commands. 
 Some common commands are `cd` - change directory, `ls` - list, `pwd` - print working directory, `mkdir` - make directory, and `cp` - copy
 <br/><br/>
-<img src="LabReport1/LS1.png" height="50%" width"50%"/>
+<img src="LabReport1/LS1.png" height= "50%" width= "50%"/>
+<br/><br />
 Here, we can see that the command `ls` displays a list of the files and directories contained within the current directory.
-<br/><br/> 
+<br /><br /><br />
+<img src="LabReport1/CDLS.png" height= "50%" width= "50%"/> 
+<br/><br />
+Using the `cd` command when followed by name of the directory you would like to switch into allows you to change directories, which in this case is "wavelet". Using the `ls` command once again demonstrates the change in directory by showing the contents of the new directory.
+<br /><br /><br />
+<img src="LabReport1/PWD.png" height= "50%" width= "50%"/> 
+<br/><br />
+This command, `pwd`, means print working directory and it shows the path to the directory in which you are currently located.
+<br/><br /><br />
+<img src="LabReport1/MKDIR.png" height= "50%" width= "50%"/> 
+<br/><br />
+In the first line `cd` is used to change back to the home directory that can be accessed by using the `~` symbol. In the second line, `mkdir` creates a new directory which is then named with the second argument `bannaana`. The last command run in this photo is `ls` to demonstrate the new directory "bannaana" that has been created within the current directory.
 
 ## Finishing
 Once you're done testing things out, simply enter `exit` into the terminal to terminate your connection with the remote server and you will recieve the following message:
