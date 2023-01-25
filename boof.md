@@ -54,6 +54,11 @@ Mon Jan 16, 2023  3:44pm - Prepping cs15lwi23
 ## Testing things out
 Now that you're connected, it's time to start testing out commands. 
 Some common commands are `cd` - change directory, `ls` - list, `pwd` - print working directory, `mkdir` - make directory, and `cp` - copy
+<br/><br/>
+<img src="LabReport1/LS1.png" height="50%" width"50%"/>
+Here, we can see that the command `ls` displays a list of the files and directories contained within the current directory.
+<br/><br/> 
+
 ## Finishing
 Once you're done testing things out, simply enter `exit` into the terminal to terminate your connection with the remote server and you will recieve the following message:
 ```
