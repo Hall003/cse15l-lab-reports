@@ -30,8 +30,15 @@ public class StringServer {
     }
 }
 ```
-
-## Part 2
+<br/>
+<img src = "/LabReport2/ServerSS1.png" width = "50%" height = "50%"/>
+<br/>
+The handleRequest method is called because the url contain "/add-message". The string following the query gets added to the strings array list. Since there is only one element here, the .join method does make a difference, and only "Hello" gets returned.
+<br/>
+<img src = "/LabReport2/ServerSS2.png" width = "50%" height = "50%"/>
+<br/>
+The handleRequest method is called because the url contain "/add-message". The string following the query gets added to the strings array list. And then the elements of strings are joined, separated by a new line, and returned.
+## Part 
 
 A failure inducing test:
 ```
