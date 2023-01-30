@@ -29,7 +29,7 @@ public class StringServer {
         Server.start(port, new Handler());
     }
 }
-```
+``` 
 <br/>
 <img src = "LabReport2/ServerSS1.png" width = "50%" height = "50%"/>
 <br/>
