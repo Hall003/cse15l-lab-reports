@@ -97,4 +97,4 @@ Code before:
  The original code attempted to switch the elements around, but once it reached the middle it just copied the first half again. The after code created a new array and populated the new array with the flipped array. It is then copied over into the original array.
  
 ## Part 3
-I didn't realize you could create a web server so easily and have things change based on what's typed into the search bar. I guess I knew it was a possibility, but I had never looked into it enough to understand how it worked. To be honest I still don't completely understand how it works, although I'm sure I can figure it out after testing things out for a while more.
+I didn't realize you could create a web server so easily and have things change based on what's typed into the search bar. I guess I knew it was a possibility, but I had never looked into it enough to understand how it worked. To be honest I still don't completely understand how it works, although I'm sure I can figure it out after testing things out for a while more. One example is that I didn't know the ? was what defined a query.
