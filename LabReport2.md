@@ -63,9 +63,13 @@ Failing test screenshot:
 <br/>
 <img src = "LabReport2/TestingB4Fail.png" width = "50%" height = "50%"/>
 <br/>
+<img src = "LabReport2/SSfail.png" width = "50%" height = "50%"/>
+<br/>
 Passing test screenshot: 
 <br/>
 <img src = "LabReport2/TestingB4Pass.png" width = "50%" height = "50%"/>
+<br/>
+<img src = "LabReport2/SSpass.png" width = "50%" height = "50%"/>
 <br/>
 Code before:
 <br/>
