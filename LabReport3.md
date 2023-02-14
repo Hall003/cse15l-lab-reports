@@ -29,3 +29,21 @@ Here, the pattern that was searched for in Fletcher Ch6 was "economic" and 5 lin
 
 ## Grep -v
 
+`` grep -v "and" /Users/hall/Desktop/Winter23/CSE15L/docsearch/written_2/non-fiction/OUP/Fletcher/ch10.txt ``
+<br/>
+<img src="/LabReport3/vAnd.png">
+The command "grep -v" searches for and returns lines of the file that do **not** contain the given pattern. For this example, it is clear that none of the returned lines contain the word "and".
+<br/>
+`` grep -v "the" ./travel_guides/berlitz2/China-History.txt ``
+<br/>
+<img src="/LabReport3/vThe.png">
+As shown in this example, the command **is** case sensitive which is why "The" still appears, but "the" does not. And since "the" is a very commonly used line, there are not many lines returned.
+<br/>
+
+## Grep -E
+
+`` grep -v "and" /Users/hall/Desktop/Winter23/CSE15L/docsearch/written_2/non-fiction/OUP/Fletcher/ch10.txt ``
+<br/>
+<img src="/LabReport3/vAnd.png">
+The command "grep -v" searches for and returns lines of the file that do **not** contain the given pattern. For this example, it is clear that none of the returned lines contain the word "and".
+<br/>
