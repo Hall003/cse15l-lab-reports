@@ -3,6 +3,7 @@
 ## Grep -r
 I asked ChatGPT "what are the commands that can be used with grep" and chose -r
 <br/>
+The command -r can be useful if you want to find all of the files in a directory that contain a certain pattern. An example could be if you are working on a biology research project and were looking for all of the files containing the name of the disease you're researching. It's important to note that it can find patterns inside of words/character sequences.
 <br/>
 `` grep -r "economic growth" ``
 <br/>
@@ -19,6 +20,7 @@ Here, the pattern that was recursively searched for in the directory "written_2"
 ## Grep -n
 I asked ChatGPT "what are the commands that can be used with grep" and chose -n
 <br/>
+This command could be useful if you needed to find a particular name in a file and the context in which it was found. For example, if you are looking at a list of student IDs and need to find the lines of every ID that contains the number sequence "289". It's important to note that it can find patterns inside of words/character sequences.
 <br/>
 `` grep -n "treasure" ./travel_guides/berlitz1/WhereToMalaysia.txt ``
 <br/>
@@ -35,6 +37,7 @@ Here, the pattern that was searched for in Fletcher Ch6 was "economic" and 5 lin
 ## Grep -v
 I asked ChatGPT "what are the commands that can be used with grep" and chose -v
 <br/>
+This command is useful in scenarios where you want to find all lines that do not contain a pattern. For example, if you are reading a paper that contains a list of artists and a description of their work, but you don't want to see the ones that make contemporary art, you can use -v "contemporary art" to see all other artists.
 <br/>
 `` grep -v "and" /Users/hall/Desktop/Winter23/CSE15L/docsearch/written_2/non-fiction/OUP/Fletcher/ch10.txt ``
 <br/>
@@ -52,6 +55,7 @@ As shown in this example, the command **is** case sensitive which is why "The" s
 I asked ChatGPT "what are the commands that can be used with grep" and chose -E
 https://www.digitalocean.com/community/tutorials/using-grep-regular-expressions-to-search-for-text-patterns-in-linux
 <br/>
+This example is useful if you want to find more complex sequences of characters inside a file. It also allows you to search for multiple patterns at once. It's important to note that it can find patterns inside of words/character sequences. Extended regular expressions are kind of confusing, but they are very useful.
 <br/>
 `` grep -E "[Ww]est" ./travel _guides/berlitz2/China-History.txt ``
 <br/>
