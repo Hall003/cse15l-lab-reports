@@ -53,7 +53,7 @@ As shown in this example, the command **is** case sensitive which is why "The" s
 ## Grep -E
 
 I asked ChatGPT "what are the commands that can be used with grep" and chose -E
-https://www.digitalocean.com/community/tutorials/using-grep-regular-expressions-to-search-for-text-patterns-in-linux
+I used [this](https://www.digitalocean.com/community/tutorials/using-grep-regular-expressions-to-search-for-text-patterns-in-linux) website to better understand the command
 <br/>
 This example is useful if you want to find more complex sequences of characters inside a file. It also allows you to search for multiple patterns at once. It's important to note that it can find patterns inside of words/character sequences. Extended regular expressions are kind of confusing, but they are very useful.
 <br/>
