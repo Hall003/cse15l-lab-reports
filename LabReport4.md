@@ -52,7 +52,7 @@ Cloning the forked repo:
 
 Changing directory to the cloned repo:
 
-<img src="LabReport4/CDLab7.png"/>
+<img src="LabReport4/CdIntoLab7.png.png"/>
 
 ``
 cd lab7
