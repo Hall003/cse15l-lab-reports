@@ -52,7 +52,7 @@ Cloning the forked repo:
 
 Changing directory to the cloned repo:
 
-<img src="LabReport4/CdIntoLab7.png.png"/>
+<img src="LabReport4/CdIntoLab7.png"/>
 
 ``
 cd lab7
@@ -64,11 +64,11 @@ Compiling the java files and running JUnit tests for ListExamplesTests.java:
 
 <img src="LabReport4/JUnitFail.png"/>
 
-``
+```
 javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
 
 java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests
-``
+```
 
 ## Identifying and fixing the error:
 
