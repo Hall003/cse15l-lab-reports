@@ -81,16 +81,16 @@ nano ListExamples.java <enter>
 
 <img src="LabReport4/Nano42Down.png"/>
 
-## Step 11: Use the right arrow key to move 12 spaces to right
+## Step 11: Press the ``<right>`` arrow key 12 times to move 12 spaces to right
 
 <img src="LabReport4/NanoPointer.png"/>
 
-## Step 12: press delete once and replace the 1 with a 2 so that the line reads "index2 += 1;"
+## Step 12: press ``<delete>`` then ``<2>`` to replace the 1 with a 2 so that the line now reads "index2 += 1;"
 
 <img src="LabReport4/NanoDelete.png"/>
 <img src="LabReport4/Nano2Num.png"/>
 
-## Press control O to save the changes and then control X to exit nano
+## Press <Ctrl + O> to save the changes and then <Ctrl + X> to exit nano
 
 <img src="LabReport4/NanoO.png"/>
 
