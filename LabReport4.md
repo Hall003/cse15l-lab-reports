@@ -76,31 +76,50 @@ nano ListExamples.java <enter>
 <img src="LabReport4/Nano.png"/>
 
 
-## Step 10: Use the downward arrow key to go down 42 lines (or scroll to line 42
+## Step 10: Scroll to line 43 (it should like the following image)
 
 <img src="LabReport4/Nano42Down.png"/>
 
-and then 12 spaces to right,
+## Step 11: Use the right arrow key to move 12 spaces to right
 
 <img src="LabReport4/NanoPointer.png"/>
 
-press delete once and replace the 1 with a 2 so that the line reads "index2 += 1;"
+## Step 12: press delete once and replace the 1 with a 2 so that the line reads "index2 += 1;"
 
 <img src="LabReport4/NanoDelete.png"/>
 <img src="LabReport4/Nano2Num.png"/>
 
-Press control O to save the changes and then control X to exit nano
+## Press control O to save the changes and then control X to exit nano
 
 <img src="LabReport4/NanoO.png"/>
 
-Now we can see that the JUnit tests are all passed:
+## Step 13: Now we can see that the JUnit tests are all passed if we run the following commands again
+ 
+  ``
+javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java <enter>
+  ``
+  
+ ``
+java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests <enter>
+`` 
 
 <img src="LabReport4/JUnitPass.png"/>
 
-## Committing and pushing to GitHub
-
+## Step 14: Committing and pushing to GitHub
 
 First add the files to the commits, then set the commit message, and push to origin
+
+``
+git add ListExamples.java <enter>
+``
+
+``
+git commit -m "<insert commit message>" <enter>
+``
+
+``
+git push origin main <enter>
+``
 
 <img src="LabReport4/GitCommitPushYay.png"/>
 
