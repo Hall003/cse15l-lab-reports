@@ -3,88 +3,80 @@
 <br/>
 
 
-## Set Up
+## Step 1: Set Up
 
 <img src="LabReport4/WhereToFork.png"/>
 
-Click here to fork the repo
+## Step 2: Click here to fork the repo
 
 <img src="LabReport4/Forking.png"/>
 
-<img src="LabReport4/SSHClone.png"/>
+## Step 3: Click on Code and SSH to copy the SSH link
 
-Click on Code and SSH to copy the SSH link
+<img src="LabReport4/SSHClone.png"/>
 
 <br/>
 
-Logging in:
+## Step 4: Logging in by running the following command (XYZ replaced by whatever your log in is)
+
+  ``
+  ssh cs15lwi23XYZ@ieng6.ucsd.edu <enter>
+  ``
 
 <img src="LabReport4/RemoteLogIn.png"/>
 
-  ``
-  ssh cs15lwi23apr@ieng6.ucsd.edu
-  ``
   
 <br/>
 
-Deleting any existing copies:
+## Step 5: Deleting any existing copies by runing the follwing command
+  
+  ``
+  rm -rf ~/lab7 <enter>
+  ``
 
 <img src="LabReport4/RemoteLS1.png"/>
 <img src="LabReport4/RemoveLab7.png"/>
-
-  ``
-  rm -rf ~/lab7
-  ``
   
 <br/>
 
-Cloning the forked repo:
+## Step 6: Cloning the forked repo by running the following command
 
+  ``
+  git clone git@github.com:Hall003/lab7.git <enter>
+  ``
+  
 <img src="LabReport4/GitCloneLab7.png"/>
 
-  ``
-  git clone git@github.com:Hall003/lab7.git
-  ``
+## Step 7: Changing directory to the cloned repo by running the following command
+
+``
+cd lab7 <enter>
+``
   
-## Running Tests
-
-<br/>
-
-Changing directory to the cloned repo:
-
 <img src="LabReport4/CdIntoLab7.png"/>
 
-``
-cd lab7
-``
-
-<br/>
-
-Compiling the java files and running JUnit tests for ListExamplesTests.java:
+## Step 8: The following commands compile the java files and run JUnit tests for ListExamplesTests.java:
+  
+  ``
+javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java <enter>
+  ``
+  
+ ``
+java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests <enter>
+`` 
 
 <img src="LabReport4/JUnitFail.png"/>
 
-```
-javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
+## Step 9: Open the ListExamples.java file to examine the error
 
-java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests
-```
-
-## Identifying and fixing the error:
-
-<br/>
-
-Open the ListExamples.java file to examine:
+``
+nano ListExamples.java <enter>
+``
 
 <img src="LabReport4/Nano.png"/>
 
-``
-nano ListExamples.java
-``
 
-<br/>
-
-Use the arrow keys to go down 42 lines  
+## Step 10: Use the downward arrow key to go down 42 lines (or scroll to line 42
 
 <img src="LabReport4/Nano42Down.png"/>
 
