@@ -34,6 +34,7 @@
   rm -rf ~/lab7 <enter>
   ``
 
+ls below is just showing that there was an existing copy and that rm -rf removed the copy
 <img src="LabReport4/RemoteLS1.png"/>
 <img src="LabReport4/RemoveLab7.png"/>
   
