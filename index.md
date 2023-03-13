@@ -7,3 +7,5 @@ Hellooooooo
 [Lab Report 3](https://hall003.github.io/cse15l-lab-reports/LabReport3.html)
 
 [Lab Report 4](https://hall003.github.io/cse15l-lab-reports/LabReport4.html)
+
+[Lab Report 5](https://hall003.github.io/cse15l-lab-reports/LabReport5)
