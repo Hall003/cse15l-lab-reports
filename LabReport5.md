@@ -25,15 +25,15 @@ Now, you can go back to the repo of lab7 that you were given to clone, [here is 
 Press "fork" and then press "create fork" when prompted
 <br>
 
-<img src="/LabReport4/WhereToFork.png">
+<img src="cse15l-lab-reports/LabReport4/WhereToFork.png">
 
 ![Screen Shot 2023-03-12 at 6 12 48 PM](https://user-images.githubusercontent.com/122586453/224586835-3708daf5-1e55-4410-abb6-be30e53eaaf7.png)
 
-<img src="LabReport4/Forking.png"/>
+<img src="cse15l-lab-reports/LabReport4/Forking.png"/>
 
 ### Step 2: Copy the repo link
 
-<img src="/LabReport4/SSHClone.png">
+<img src="cse15l-lab-reports/LabReport4/SSHClone.png">
 
 ### Step 3: Remote Log In (XYZ to be replaced by whatever 3-letter combination is in your log in)
 
