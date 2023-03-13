@@ -31,7 +31,7 @@ Press "fork" and then press "create fork" when prompted
 
 <img src="LabReport4/Forking.png"/>
 
-### Step 2: Copy the repo link
+### Step 2: Copy the repo link by pressing Code -> SSH -> the copy icon to the right of the link
 
 <img src="LabReport4/SSHClone.png">
 
