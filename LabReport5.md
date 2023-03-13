@@ -180,6 +180,9 @@ To test step1.sh, type the following command:
 ``
 bash step1.sh <enter>
 ``
+
+<br>
+
 ![Screen Shot 2023-03-12 at 5 34 47 PM](https://user-images.githubusercontent.com/122586453/224584186-e3b4777a-2348-4bc9-8fa0-881ff2a681a4.png)
 
 Here, we can see that lab7 was cloned from the repo and one JUnit test failed.
@@ -193,6 +196,9 @@ To run step2.sh, type the following command:
 ``
 bash step2.sh <enter>
 ``
+
+<br> 
+
 ![Screen Shot 2023-03-12 at 5 37 01 PM](https://user-images.githubusercontent.com/122586453/224584326-2ca0c303-89f0-4415-9614-df8f61182599.png)
 
 Here, we can see that all JUnit tests pass and that the fixed file was pushed to main.
@@ -213,4 +219,6 @@ Now that we're done with our task, we can log out of ieng6. To do so, run the fo
 ``
 exit <enter>
 ``
+<br>
+
 ![Screen Shot 2023-03-12 at 5 49 26 PM](https://user-images.githubusercontent.com/122586453/224585168-a4b281b3-3c95-47a6-a1eb-f19a93860e65.png)
