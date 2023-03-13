@@ -59,7 +59,7 @@ git clone git@github.com:Hall003/lab7.git <enter>
 ``
 
 <br>
-Line 3 changes directory into lab7:
+Line 3 changes the working directory to lab7:
 <br>
 
 ``
@@ -110,7 +110,7 @@ nano step2.sh <enter>
 Nano opens the file so it can be edited.
 #### Type out the following code snippets in step2.sh:
 
-Line 1 changes directory into lab7
+Line 1 changes the working directory to lab7
 <br>
 
 ``
