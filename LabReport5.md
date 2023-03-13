@@ -24,6 +24,7 @@ Now, you can go back to the repo of lab7 that you were given to clone, [here is 
 <br>
 Press "fork" and then press "create fork" when prompted
 <br>
+
 <img src="/LabReport4/WhereToFork.png">
 
 ![Screen Shot 2023-03-12 at 6 12 48 PM](https://user-images.githubusercontent.com/122586453/224586835-3708daf5-1e55-4410-abb6-be30e53eaaf7.png)
@@ -32,7 +33,7 @@ Press "fork" and then press "create fork" when prompted
 
 ### Step 2: Copy the repo link
 
-<img src="/LabReport4/SSHClone.png" height="75%" width="75%">
+<img src="/LabReport4/SSHClone.png">
 
 ### Step 3: Remote Log In (XYZ to be replaced by whatever 3-letter combination is in your log in)
 
@@ -42,6 +43,7 @@ Open your terminal and type the following command:
 ``
   ssh cs15lwi23XYZ@ieng6.ucsd.edu <enter>
 ``
+
 ![Screen Shot 2023-03-12 at 4 20 13 PM](https://user-images.githubusercontent.com/122586453/224580153-02bc363b-7eed-490a-87aa-1d8eaaaedbf9.png)
 
 ### Step 4: Creating the first Bash Script
