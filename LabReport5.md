@@ -213,3 +213,4 @@ Now that we're done with our task, we can log out of ieng6. To do so, run the fo
 ``
 exit <enter>
 ``
+![Screen Shot 2023-03-12 at 5 49 26 PM](https://user-images.githubusercontent.com/122586453/224585168-a4b281b3-3c95-47a6-a1eb-f19a93860e65.png)
