@@ -48,9 +48,7 @@ Open your terminal and type the following command:
 
 ### Step 4: Creating the first Bash Script
 
-For this bash script, we want to combine the command that makes sure that there are no pre-existing copies of 
-lab 7 already downloaded, the command that clones lab7 onto the remote machine, and 
-the commands that run JUnit tests on lab7
+For this bash script, our goal is to make sure that there are no pre-existing copies of lab 7 already downloaded, clone lab7 onto the remote machine, and run the JUnit tests from ListExamplesTests.java
 <br>
 <br>
 Run the following command: 
