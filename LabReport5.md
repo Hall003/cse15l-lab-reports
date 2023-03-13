@@ -2,7 +2,7 @@
 
 ## Optimizing Week 7 Lab and [Lab Report 4](https://hall003.github.io/cse15l-lab-reports/LabReport4.html)
 
-To clearly show when the JUnit tests fail and when they succeed after fixing the bug, I will be creating 2 bash scripts instead of just one.
+To clearly show when the JUnit tests fail and when they succeed after fixing the bug, I will be creating 2 bash scripts instead of just one. But you can also combine them by following the alternative instructions labeled "Step 4 (modified)" at the end of the document.
 
 ### Step 1: Fork the repo
 
@@ -227,7 +227,13 @@ Here, we can see that all JUnit tests pass and that the fixed file was pushed to
 
 <br>
 
-If we check our repo we can see that the ListExamples.java file has been updated:
+If you followed the modified version of Step 4, your results will look a bit different, but the overall results are the same
+
+![Screen Shot 2023-03-12 at 6 39 39 PM](https://user-images.githubusercontent.com/122586453/224589187-d3458404-3aa3-44db-96c5-f159660c6132.png)
+
+<br>
+
+In either case, if we check our repo we can see that the ListExamples.java file has been updated:
 
 <br>
 
@@ -244,3 +250,119 @@ exit <enter>
 <br>
 
 ![Screen Shot 2023-03-12 at 5 49 26 PM](https://user-images.githubusercontent.com/122586453/224585168-a4b281b3-3c95-47a6-a1eb-f19a93860e65.png)
+
+
+### Step 4(modified):
+
+For this bash script, our goal is to make sure that there are no pre-existing copies of lab 7 already downloaded, clone lab7 onto the remote machine, and run the JUnit tests from ListExamplesTests.java. Then to fix the bug that caused the failed JUnit test, re-run the JUnit test, and commit and push the modified file to main.
+<br>
+<br>
+Run the following command: 
+<br>
+``
+touch script.sh <enter>
+``
+Touch searches for the file and if it's not found, it creates the file.
+<br>
+Run the following command:
+<br>
+``
+nano script.sh <enter>
+``
+Nano opens the file so it can be edited.
+#### Type out the following code snippets in step1.sh:
+Line 1 removes any pre-existing copies of lab7:
+<br>
+
+``
+rm -rf ~/lab7 <enter>
+``
+
+<br>
+Line 2 clones the repo onto the local machine (the link should be replaced by the link you copied earlier):
+<br>
+
+``
+git clone git@github.com:Hall003/lab7.git <enter>
+``
+
+<br>
+Line 3 changes the working directory to lab7:
+<br>
+
+``
+cd lab7 <enter>
+``
+
+<br>
+Line 4 compiles lab7's java files:
+<br>
+
+``
+javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java <enter>
+``
+
+<br>
+Line 5 runs JUnit tests on ListExamplesTests:
+<br>
+
+``
+java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests <enter>
+``
+
+<br>
+Line 6 uses the sed command to edit ListExamples.java to fix the error
+<br>
+
+``
+sed -i '43s/index1 += 1;/index2 += 1;/' ListExamples.java <enter>
+``
+
+<br>
+Line 7 compiles the java files in lab7
+<br>
+
+``
+javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java <enter>
+``
+
+<br>
+Line 8 runs JUnit tests on ListExamplesTests
+<br>
+
+``
+java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests <enter>
+``
+
+<br>
+Line 9 adds ListExamples.java to the staging area
+<br>
+
+``
+git add ListExamples.java <enter>
+``
+
+<br>
+Line 10 commits the file from the staging area and sets the commit message
+<br>
+
+``
+git commit -m "Updated" <enter>
+``
+
+<br>
+Line 11 pushes the committed file to the main branch
+<br>
+
+``
+git push origin main <enter>
+``
+<br>
+Press Ctrl+O to save and press Enter to confirm changes
+<br>
+Your file should look like this now:
+
+![Screen Shot 2023-03-12 at 6 37 29 PM](https://user-images.githubusercontent.com/122586453/224588965-521184ce-971c-4da6-9955-606bb9b08200.png)
+
+<br>
+Then, to exit, press Ctrl+X
