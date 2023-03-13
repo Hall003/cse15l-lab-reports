@@ -2,9 +2,30 @@
 
 ## Optimizing Week 7 Lab and [Lab Report 4](https://hall003.github.io/cse15l-lab-reports/LabReport4.html)
 
+I will be splitting up the bash scripts into two parts, step 1 and step 2. Step 1 covers steps 5 and 6 of our week 7 lab. And Step 2 covers steps 7 through 9 of our week 7 lab. This is to clearly show when the JUnit tests fail and when they succeed after fixing the bug.
+
 ### Step 1: Fork the repo
 
+If you already have a copy of lab7 in your github, you will need to delete it.
+<br>
+Go to lab7 settings
+<br>
+![Screen Shot 2023-03-12 at 6 05 20 PM](https://user-images.githubusercontent.com/122586453/224586264-8a585b7a-d011-4b77-9e48-b863d201534b.png)
+<br>
+Then scroll down to the very bottom of general
+<br>
+![Screen Shot 2023-03-12 at 6 06 41 PM](https://user-images.githubusercontent.com/122586453/224586350-887b88c6-e155-4a4e-9f55-ff2481d88021.png)
+<br>
+Click on "Delete this repository" and follow the instructions
+<br>
+![Screen Shot 2023-03-12 at 6 07 31 PM](https://user-images.githubusercontent.com/122586453/224586404-cff66065-fca5-4146-85c9-0b717feb0abe.png)
+<br>
+Now, you can go back to the repo of lab7 that you were given to clone, [here is the link if you need it](https://github.com/ucsd-cse15l-w23/lab7)
+<br>
+Press "fork" and then press "create fork" when prompted
+<br>
 <img src="/LabReport4/WhereToFork.png">
+![Screen Shot 2023-03-12 at 6 12 48 PM](https://user-images.githubusercontent.com/122586453/224586835-3708daf5-1e55-4410-abb6-be30e53eaaf7.png)
 
 <img src="LabReport4/Forking.png"/>
 
